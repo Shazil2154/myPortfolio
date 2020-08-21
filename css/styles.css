@@ -1,0 +1,105 @@
+/************************tags*********************/
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Inconsolata', monospace;
+}
+h1{
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  margin-bottom: 10px;
+  margin-top: 50px;
+  color: #4AB19A;
+
+}
+h2{
+  font-size: 2rem;
+  font-weight: normal;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color: #4AB19A
+}
+h3,a{
+  color: #45B29A;
+
+}
+hr{
+  border-top:5px #ccc9c9 dotted;
+  border-bottom: none;
+  height: 0;
+ width: 100px;
+ margin: 40px auto;
+}
+button{
+  background:#4AB19A ;
+  width:200px;
+  height: 60px;
+  border-radius: 10px;
+  border: none;
+  padding: 20px;
+  margin: 20px;
+  color:white;
+  font-weight: bold;
+}
+a{
+  padding: 0 42px;
+  text-decoration: none;
+}
+a:hover{
+  color: #2F574E;
+  text-decoration: overline;
+}
+button:hover{
+  cursor: pointer;
+  background-color: #2C8B75
+}
+/************************classes*********************/
+.top-container{
+  background-color: #E0EBE8;
+}
+.middle-container{
+  margin-top: 100px;
+}
+.bottom-container{
+  background-color: #C5DED7;
+  padding: 40px 80px 30px;
+}
+.cloud-bottom{
+  position:absolute;
+}
+.cloud-top{
+  margin-top: 60px;
+  margin-left: 350px;
+}
+.profile-pic{
+  border-radius: 50%;
+  width:14%;
+}
+.code-img{
+  border-radius: 50%;
+  width:25%;
+  margin-right: 30px;
+  float: left;
+}
+.ai-img{
+  border-radius: 50%;
+  width:25%;
+  margin-left: 30px;
+  float: right;
+
+}
+.skill-row{
+  width: 50%;
+  margin:100px auto;
+  text-align: left;
+  line-height: 2;
+
+}
+.copyright{
+  padding: 40px 0 0;
+  color: #45B29A;
+}
+.intro{
+  width: 25%;
+  margin: auto;
+}
